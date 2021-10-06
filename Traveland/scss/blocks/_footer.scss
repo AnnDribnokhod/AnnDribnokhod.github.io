@@ -1,0 +1,108 @@
+.footer{
+    padding: 70px 0 80px 0;
+    background: rgba(38, 148, 153, 0.04);
+    max-height: 350px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__contacts{
+        line-height: 160%;
+        letter-spacing: 0.06em;
+        color: #000000;
+        &_logo{
+            font-family: Ribeye;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 150%;
+        }
+        &_title{
+            margin-top: 40px;
+            font-size: 16px;
+
+        }
+        &_link{
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        &_social{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &__navigation{
+        &_links{
+            &-link{
+                list-style-type: none;
+                margin-bottom: 20px;
+                a{
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: 0.06em;
+                    color: #000000;
+                }
+            }
+        }
+
+    }
+    &__rules{
+        &_links{
+            &-link{
+                list-style-type: none;
+                margin-bottom: 20px;
+                a{
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: 0.06em;
+                    color: #000000;
+                }
+            }
+        }
+
+    }
+    &__subscribe{
+        &_title{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            letter-spacing: 0.06em;
+            color: #000000;
+        }
+        &_block{
+            &-input{
+                margin-top: 42px;
+                margin-right: 25px;
+                padding: 10px;
+                width: 195px;
+                height: 44px;
+                opacity: 0.1;
+                border: 1px solid #000000;
+                box-sizing: border-box;
+                box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.15);
+                border-radius: 5px;
+            }
+            &-button{
+                width: 103px;
+                height: 44px;
+                background: #C9453B;
+                border-radius: 5px;
+                border: none;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.06em;
+                color: #FFFFFF;
+            }
+    }
+    }
+}

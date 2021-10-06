@@ -1,0 +1,64 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    &__left{
+        &_logo{
+            font-family: Ribeye;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            letter-spacing: 0.06em;
+            color: #FFf;
+        }
+    }
+    &__center{
+        &_links{
+            display: flex;
+            &-link{
+                margin: 0 25px;
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                    transition: 1s;
+                    &:hover{
+                        font-size: 21px;
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+    &__right{
+        &_button{
+            width: 163px;
+            height: 51px;
+            border: none;
+            background: #C9453B;
+            border-radius: 5px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF;
+            transition: 0.5s;
+            &:hover{
+                color:  #C9453B;
+                background: #FFFFFF;
+                width: 168px;
+                height: 56px;
+                font-size: 21px;
+                font-weight: 600;
+        }
+    }
+}
+.hamburger{
+    display: none;
+}
+}

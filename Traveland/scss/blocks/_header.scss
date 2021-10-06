@@ -1,0 +1,51 @@
+header{
+    padding: 35px 0 244px 0;
+    background-image: url(../image/header-bg.png);
+    background-repeat: no-repeat;
+    max-height: 900px;
+    .header__content{
+        margin-top: 200px;
+        max-width: 804px;
+        &_title{
+            font-family: Gelasio;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 65px;
+            color: #FFFFFF;
+        }
+        &_descr{
+            max-width: 400px;
+            margin-top: 30px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 160%;
+            color: #FFFFFF;
+        }
+        &_button{
+            margin-top: 40px;
+            width: 187px;
+            height: 60px;
+            border: none;
+            background: #C9453B;
+            border-radius: 5px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF;
+            transition: 0.5s;
+            &:hover{
+                color:  #C9453B;
+                background: #FFFFFF;
+                width: 193px;
+                height: 65px;
+                font-size: 21px;
+                font-weight: 600;
+
+            }
+        }
+    }
+}

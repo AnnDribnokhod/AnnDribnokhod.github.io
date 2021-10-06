@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&family=Ribeye&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1600px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+@import 'blocks/title';
+@import 'blocks/header';
+@import 'blocks/location';
+@import 'blocks/navigation';
+@import 'blocks/offers';
+@import 'blocks/blog';
+@import 'blocks/footer';
+@import 'blocks/media';

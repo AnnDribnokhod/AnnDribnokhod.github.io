@@ -1,0 +1,103 @@
+.offers{
+    padding-top: 140px;
+    padding-left: 30px;
+    &__items{
+        margin-top: 60px;
+        &_item{
+            min-width: 0;
+            display: flex;
+            flex-direction: column;
+            max-height: 334px;
+            max-width: 262px;
+            margin: 0 30px;
+            padding-bottom: 30px;
+            &-title{
+                margin-top: 20px;
+                font-family: Gelasio;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 150%;
+                color: #000000;
+            }
+            &-blocks{
+                min-width: 0;
+                display: flex;
+                justify-content: space-between;
+                max-width: 190px;
+                .map{
+                    display: flex;
+                    img{
+                        margin-right: 10px;
+                    }
+                    a{
+                        text-decoration: none;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 20px;
+                        line-height: 150%;
+                        color: #000000;
+                        opacity: 0.6;
+                    }
+
+                }
+                .rating{
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 160%;
+                    color: #000000;
+                    &::before{
+                        content: '★';
+                        margin-right: 8px;
+                        width: 24px;
+                        height: 24px;
+                        color: #FFC700;
+                        border-radius: 0.5px;
+                    }
+                }
+            }
+            &-descr{
+                margin-top: 8px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150%;
+                color: #000000;
+                opacity: 0.6;
+            }
+            &-price{
+                margin-top: 8px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 150%;
+                color: #000000;
+                span{
+                    font-size: 16px;
+                    opacity: 0.6;
+                }
+
+            }
+        }
+    }
+}
+.slick-dots li {
+    width: 100px;
+    height: 5px;
+    background: rgba(201, 69, 59, 0.1);
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+li.slick-active{
+    background: #C9453B;
+    border-radius: 10px;
+}
+.slick-dots li button:before {
+    display: none;
+}

@@ -1,0 +1,128 @@
+.blog{
+    padding: 140px 0;
+    &__wrapper{
+        margin-top: 56px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        &_items{
+            &_item{
+                display: flex;
+                flex-direction: column;
+                max-width: 554px;
+                max-height: 645px;
+                margin: 15px 15px 15px 0px;
+                &-image{
+                    transition: 1s;
+                    width: 554px;
+                    height: 397px;
+                    &:hover{
+                        transform: scale(1.2);
+                        z-index: 1;
+                    }
+                    img{
+                        width: 100%;
+                    }
+                }
+                &-title{
+                    margin-top: 30px;
+                    font-family: Gelasio;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 160%;
+                    color: #000000;
+                    }
+                    &-descr{
+                        max-width: 470px;
+                        margin-top: 10px;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 170%;
+                        color: #000000;
+                        opacity: 0.6;
+                    }
+                    &-link{
+                        margin-top: 10px;
+                        a{
+                            text-decoration: none;
+                            font-family: Roboto;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 150%;
+                            color: #000000;
+                            transition: 0.5s;
+                        &:hover{
+                            color: #500808;
+                        }
+                        }
+                    }}
+            }
+        }
+    &__right{
+        &_items{
+            display: flex;
+            flex-direction: column;
+            &_item{
+                display: flex;
+                margin: 15px 0px 15px 15px ;
+                max-height: 200px;
+                &-wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 25px;
+                }
+                &-title{
+                    font-family: Gelasio;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #000000;
+                }
+                &-descr{
+                    margin-top: 10px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 160%;
+                    opacity: 0.6;
+                    color: #000000;
+                    
+                }
+                &-link{
+                    margin-top: 10px;
+                    a{
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 17px;
+                        line-height: 150%;
+                        color: #000000;
+                        text-decoration: none;
+                        transition: 0.5s;
+                        &:hover{
+                            color: #500808;
+                        }
+                }}
+                &-image{ 
+                    transform: scale(1);
+                    transition: 1s;
+                    &:hover{
+                        transform: scale(1.2);
+                        z-index: 1;
+                    }
+                    img{
+                        max-width: 260px;
+                        max-height: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
