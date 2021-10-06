@@ -77,13 +77,16 @@
 }
 @media (max-width: 575px){
     .container{
-        width: 370px;
+        width: 375px;
     }
     .offers__items_item-blocks .map {
         margin-top: 5px;
     a{
         font-size: 16px;
     }
+    }
+    .offers__items_item-blocks .rating::before{
+        margin-right: 2px;
     }
     .offers{
         &__items{
@@ -94,28 +97,50 @@
                     }
                 }
                 &-title{
-                    font-size: 20px;
+                    font-size: 13px;
                 }
                 &-descr{
-                    font-size: 15px;
+                    font-size: 12px;
                 }
                 &-blocks{
+                    .Bangladesh {
+                        font-size: 10px;
+                    }
+                    .map{
+                        margin-top: 0;
+                        img{
+                            width: 12px;
+                            height: 12px;
+                            margin-top: 12px;
+                            margin-right: 4px;
+                        }
+                        a{
+                            margin-top: 12px;
+                            font-size: 12px     ;
+                        }
+                    }
                     .rating{
-                        font-size: 15px;
-                        margin-top: 5px;
+                        font-size: 12px;
+                        margin-top: 12px;
                     }
                 }
         }
     }
   }
+header{
+    padding: 34px 94px 244px 15px;
+}
 header .header__content_title{
-    font-size: 43px;
+    font-size: 38px;
+  }
+header .header__content_descr{
+      font-size: 16px;
   }
   .title{
-      font-size: 40px;
+      font-size: 38px;
   }
   .subtitle{
-      font-size: 17px;
+      font-size: 16px;
   }
   .location{
     padding-top: 140px;
