@@ -1,0 +1,128 @@
+.gallery{
+    margin-top: 128px;
+    &__items{
+        display: flex;
+        flex-wrap: wrap;
+        &_item{
+            margin: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 555px;
+            height: 337px;
+            position: relative;
+            background-repeat: no-repeat;
+            background-position: 100%;
+            &_lux{
+                background-image: url(../../image/lux.png);
+            }
+            &_mini{
+                background-image: url(../../image/mini-roompng.png);
+            }
+            &_stande{
+                background-image: url(../../image/Stande-Room.png);
+            }
+            &_single{
+                background-image: url(../../image/Single-Room.png);
+            }
+            &_elite{
+                background-image: url(../../image/Elite-Room.png);
+            }
+            &-title{
+                margin-top: 46px;
+                font-family: Gelasio;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 140%; 
+                color: #081F32;
+            }
+            &-descr{
+                margin-top: -12px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 160%;
+                color: #081F32;
+                opacity: 0.6;
+                max-width: 440px;
+            }
+            &-btn{
+                width: 137px;
+                height: 56px;
+                background: #1B75BB;
+                border-radius: 5px;
+                border: none;
+                font-family: Gelasio;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 150%;
+                color: #FFFFFF;
+                padding: 10px 20px;
+                transition: 1s;
+                    &:hover{
+                        font-size: 16px;
+                    }
+                }
+            &-wrapper{
+                padding: 23px 28px;
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 231px;
+                height: 126px;
+                background: rgba(226, 226, 226, 0.4);
+                backdrop-filter: blur(10px);
+                border-radius: 10px;
+            }
+            &-block{
+                display: flex;
+                justify-content: space-between;
+                &_name{
+                    font-family: Gelasio;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 160%;
+                    color: #081F32;
+                    }
+                &_price{
+                    margin-top: 4px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 160%;
+                    color: #081F32;
+                    opacity: 0.8;
+                }
+        }
+        &-btn_mini{
+            margin-top: 13px;
+            width: 105px;
+            height: 41px;
+            background: #1B75BB;
+            border-radius: 5px;
+            border: none;
+            font-family: Gelasio;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 150%;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            transition: 1s;
+            &:hover{
+                width: 110px;
+                height: 46px;
+                color: #1B75BB;
+                background: #FFFFFF;
+                font-size: 15px;
+            }
+        }
+        }
+    }
+}

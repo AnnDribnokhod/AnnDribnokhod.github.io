@@ -1,0 +1,106 @@
+.calendar{
+    position: absolute;
+    top: -49px;
+    left: 201px;
+    width: 687px;
+    height: 110px;
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(70px);
+    border-radius: 10px;
+    padding: 24px 50px;
+    hr{
+        height: 34px;
+        opacity: 0.4;
+        border: 1px solid #9DACB8;
+        transform: rotate(359deg);
+        margin: 15px 13px ;
+    }
+    input{
+    border: none;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #081F32;
+    opacity: 0.8;
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(70px);
+     }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        &_cheekin{
+            &.cheek-in-input{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 160%;
+                color: #081F32;
+                opacity: 0.8;
+            }
+                label{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 160%;
+                color: #081F32;
+                }
+            }
+        
+        &_cheekout{
+            label{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 160%;
+                color: #081F32;
+            }
+        }
+        &_person{
+            display: flex;
+            flex-direction: column;
+            margin-right: 15px;
+            .form-field{
+                margin-top: 10px;
+                select{
+                    border: none;
+                    background: rgba(255, 255, 255, 0.21);
+                    backdrop-filter: blur(70px);
+                }
+            }
+            label{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 160%;
+                color: #081F32;
+            }
+        }
+        &_button{
+            &-btn{
+            width: 125px;
+            height: 50px;
+            background: #1B75BB;
+            border-radius: 5px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 160%;
+            color: #FFFFFF;
+            border: none;
+            transition: 1s;
+            &:hover{
+                color: #1B75BB;
+                background-color: #FFFFFF;
+            }
+
+            }}
+    }
+}

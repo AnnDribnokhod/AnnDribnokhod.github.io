@@ -1,0 +1,162 @@
+
+.footer{
+    padding: 20px 0  140px 0;
+    background: #FCFCFD;
+    max-height: 350px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__contacts{
+        
+        line-height: 160%;
+        letter-spacing: 0.06em;
+        color: #000000;
+        max-width: 270px;
+        &_logo{
+            font-family: Ribeye;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 150%;
+        }
+        &_descr{
+            margin-top: -48px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 150%;
+            color: #081F32;
+            opacity: 0.7;
+
+        }
+        &_link{
+            margin-top: 30px;
+           a{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 160%;
+            letter-spacing: 0.06em;
+            color: #081F32;
+            opacity: 0.7;
+            &:hover{
+                color: #1B75BB;
+            }
+           }
+
+        }
+        &_social{
+            margin-top: 14px;
+            display: flex;
+            justify-content: space-between;
+            max-width: 142px;
+        }
+    }
+    &__navigation{
+        margin-top: 30px;
+        &_links{
+            &-link{
+                list-style-type: none;
+                margin-bottom: 25px;
+                a{
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #081F32;
+                    opacity: 0.7;
+                    &:hover{
+                        color: #1B75BB;
+                    }
+                    &.home{
+                        font-size: 20px;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+    }
+    &__rules{
+        margin-top: 30px;
+        &_links{
+            &-link{
+                list-style-type: none;
+                margin-bottom: 25px;
+                a{
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: #081F32;
+                    opacity: 0.7;
+                    &:hover{
+                        color: #1B75BB;
+                    }
+                    &.pages{
+                        font-size: 20px;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+    }
+    &__subscribe{
+        margin-top: 30px;
+        &_title{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            color: #081F32;
+        }
+        &_block{
+            &-input{
+                margin-top: 42px;
+                padding: 10px 26px;
+                width: 323px;
+                height: 54px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150%;
+                color: #081F32;
+                opacity: 0.5;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                box-sizing: border-box;
+                border-radius: 5px;
+                &:hover{
+                    box-shadow: 0px 4px 30px rgba(158, 154, 154, 0.25);
+                }
+
+            }
+            &-button{
+                width: 164px;
+                height: 54px;
+                background: #1B75BB;
+                border-radius: 5px;
+                border: none;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 150%;
+                text-align: center;
+                letter-spacing: 0.03em;
+                color: #FFFFFF;
+                transition: 1s;
+                &:hover{
+                    font-size: 18px;
+                }
+            }
+    }
+    }
+}

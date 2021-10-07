@@ -1,0 +1,64 @@
+header{
+    padding: 0px 0 97px 0;
+    background-image: url(../image/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    max-height: 690px;
+    .header__content{
+        padding-left: 19px;
+        &_upper-title{
+            margin-top: 73px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #1B75BB;
+            opacity: 0.8;
+        }
+        &_title{
+            margin-top: 15px;
+            font-family: Gelasio;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 57px;
+            line-height: 120%;
+            color: #081F32;
+            max-width: 456px;
+            span{
+                color: #1B75BB;
+            }
+        }
+        &_descr{
+            margin-top: 27px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 160%;
+            color: #081F32;
+            opacity: 0.6;
+            max-width: 347px;
+        }
+        &_button{
+            margin-top: 30px;
+            border: none;
+            width: 138px;
+            height: 56px;
+            background: #1B75BB;
+            border-radius: 5px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 160%;
+            color: #FFFFFF;
+            transition: 1s;
+            &:hover{
+                font-size: 18px;
+            }
+        }
+    }
+}

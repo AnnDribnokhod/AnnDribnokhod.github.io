@@ -1,0 +1,62 @@
+.subscribe{
+    margin-top: 140px;
+    padding-bottom: 128px;
+    text-align: center;
+    &__subtitle{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #081F32;
+        opacity: 0.8;
+    }
+    &__title{
+        margin-top: 20px;
+        font-family: Gelasio;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 140%;
+        text-align: center;
+        color: #081F32;
+    }
+    &__block{
+        margin-top:50px ;
+        &-email{
+            width: 400px;
+            height: 54px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            color: #081F32;
+            opacity: 0.5;
+            padding: 5px 26px;
+            &:hover{
+                box-shadow: 0px 4px 30px rgba(158, 154, 154, 0.25);
+            }
+        }
+        &-btn{
+            width: 164px;
+            height: 54px;
+            background: #1B75BB;
+            border-radius: 5px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+            border: none;
+
+                    }
+    }
+}
