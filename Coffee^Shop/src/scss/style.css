@@ -126,8 +126,14 @@ footer {
   height: 60px;
 }
 
-footer .footer {
-  padding-top: 18px;
+footer a {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-decoration: none;
   font-family: Nunito;
   font-style: italic;
