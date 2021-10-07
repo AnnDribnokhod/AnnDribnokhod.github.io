@@ -1,0 +1,104 @@
+.combo{
+    padding: 84px 0 180px 130px;
+    background-image: url(../image/combo_BG.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+    &__slider{
+        margin-top: 40px;
+        &_content{
+            margin-right: 64px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            max-height: 560px;
+            max-width: 360px;
+            font-family: Nunito;
+            &-wrapper{
+                padding: 12px 40px 30px;
+            }
+            &-image{
+                img{
+                width: 100%;
+            }}
+            &-price{
+                margin-top: 34px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+                color: #C7A17A;
+                span{
+                    margin-left: 13px;
+                    font-style: italic;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 19px;
+                    text-decoration-line: line-through;
+                    color: #415167;
+                }
+            }
+            &-title{
+                margin-top: 9px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 28px;
+                color: #232C38;
+            }
+            &-descr{
+                margin-top: 10px;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 22px;
+                color: #151D28;
+            }
+            &-btn{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 29px;
+                align-items: center;
+                button{
+                    width: 134px;
+                    height: 32px;
+                    background: #C7A17A;
+                    border-radius: 19px;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-align: center;
+                    color: #F9FBFF;
+                    border: none;
+                }
+                &.text{
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #415167;
+                }
+            }
+        }
+        .slick-next_combo {
+            right: 0;
+        }
+    }
+}
+footer{
+    background: #EDF0F5;
+    height: 60px;
+    .footer{
+        padding-top: 18px;
+        text-decoration: none;
+        font-family: Nunito;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+        color: #415167;
+        text-align: center;
+    }
+}

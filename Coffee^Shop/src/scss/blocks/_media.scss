@@ -1,0 +1,331 @@
+@media (max-width:1300px){
+    .container{
+        max-width: 1200px;
+    }
+    .slider-first__responsive {
+        margin: 70px 0 130px 66px;
+}
+    .slick-slide, .slick-current, .slick-active{
+        margin-right: 20px;
+    }
+    .slick-next, .slick-arrow{
+        right: 0px;
+    }
+    .giftset__wrapper {
+        padding: 68px 0px 0 299px;
+    }}
+
+
+
+@media (max-width:1200px){
+    .container{
+        max-width:990px;
+    }
+    .slider-first{
+        &__responsive{
+            &_items{
+                &-item{
+                    .item_container{
+                        .item__content{
+                            padding: 45px 53px 20px 45px;
+                            flex: 1 1 55%;
+                            &_descr{
+                                margin-top: 10px;
+                            }
+                            &_buttom{
+                                margin-top: 19px;
+                                &-btn{
+                                    width: 100px;
+                                }
+                                &-text{
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }}
+        .giftset{
+            max-height: 800px;
+            padding-bottom: 30px;
+            background-size:74% 100% ;
+            &__wrapper{
+                max-width: 880px;
+                padding: 68px 0px 0 256px;
+                .tabcontent{
+                    padding: 64px 0px 21px 294px;
+                }
+                    }
+                }
+.combo {
+    padding: 84px 2px 100px 138px;
+    background-size: 26% 100%;
+}
+.combo__slider {
+    max-width: 698px;
+}
+.information {
+    padding: 105px 17px 127px;
+}
+}
+@media (max-width:991px){
+    .container{
+        max-width:750px;
+    }
+    header{
+        padding: 0 0 64px 70px;
+    }
+    .burger-menu_button {
+        right: 10px;
+      }
+      .logo{
+        left: 70px;
+    }
+    .page-content{
+        padding:450px 6px 0 0 ;
+      }
+    .information {
+        padding: 100px 50px 100px;
+        &__items{
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-top: 40px;
+            &__item{
+                padding-top: 30px;
+            }
+    }}
+    .giftset{
+        padding-bottom: 100px;
+        background-size: 80% 100%;
+        &__wrapper{
+            max-width: 880px;
+            padding: 68px 0px 0 280px;
+            .tabcontent {
+                padding: 65px 5px 48px 80px;
+                max-width: 65%;
+                &_image{
+                    position: absolute;
+                    top: 51px;
+                    left: -279px;
+                    img{
+                        max-height: 360px;
+                        max-width: 360px;
+                    }
+                }
+                &_price{
+                    font-size: 18px;
+                }
+                &_title{
+                    font-size: 20px;
+                }
+                &_descr{
+                   font-size: 14px;
+                }
+                &_buttom-sort{
+                    &_descr{
+                        &.second{
+                            margin-left: 13px;
+                        }
+                        .text{
+                            font-size: 13px;
+                        }
+                    }
+                }
+                &_buttom-btn{
+                    margin-top: 37px;
+                    .btn{
+                        width: 142px;
+                        height: 37px;
+                    }
+                    &_text{
+                        font-size: 13px;
+                    }
+                }
+            }}
+        }
+        .combo {
+            padding: 84px 2px 80px 40px;
+            background-size: 20% 100%;
+        }
+    }
+
+@media (max-width: 575px){
+    .container{
+        width: 400px;
+    }
+header{
+    padding: 0;
+    background-size: 50% 100%;
+    max-height: 640px;
+}
+.burger-menu_button {
+    width: 70px;
+    height: 70px;
+  }
+  .burger-menu_link {
+    &:nth-child(1){
+      padding-top: 160px;
+    }
+  
+  }
+  .logo{
+      left: 10px;
+  }
+  .page-content{
+    font-size: 35px;
+    line-height: 50px;
+    padding: 250px 10px;
+  }
+.information{
+    &__items{
+        padding-top: 0;
+    }
+}
+.slider-first_wrapper{
+    padding-top: 100px;
+    background-size: 15% 100%;
+}
+.slider-first{
+    &_wrapper{
+        height: 1030px;
+    }
+    &__responsive{
+        margin: 70px 0 130px 30px;
+        &_items{
+            &-item{
+                margin: 0 20px 20px 0;
+                max-width: 100%;
+                .item_container{
+                    min-width: 0;
+                    flex-direction: column;
+                    .item__img{
+                        align-content: center;
+                        margin-top: 0px;
+                        justify-content: center;
+                        img{
+                            width: 60%;
+                        }
+                    }
+                    .item__content{
+                        padding: 30px 50px 30px 30px;
+                        &_price{
+                            font-size: 17px;
+                        }
+                        &_title{
+                            font-size: 21px;
+                        }
+                      &_descr{
+                          margin-top: 10px;
+                          font-size: 14px;
+                        }
+                        &_buttom{
+                            margin-top: 19px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+.slick-next, .slick-arrow{
+    right: 0px;
+    top: 49%;
+}
+.giftset{
+    &__wrapper{
+        padding: 68px 0px 0 30px;
+        .tab {
+            float: right;
+            width: 45px;
+            max-height: 798px;
+            button{
+                width: 100%;
+                height: 140px;
+                &.active{
+                    background: #fff;
+                    opacity: 1;
+                }
+            }
+        }
+        .tabcontent {
+            padding: 30px 20px 30px 20px;
+            max-width: 78%;
+            &_image{
+                display: none;
+            }
+            &_price{
+                font-size: 17px;
+            }
+            &_title{
+                font-size: 17px;
+            }
+            &_descr{
+               font-size: 14px;
+            }
+            &_buttom-sort{
+                &_descr{
+                    &.second{
+                        margin-left: 30px;
+                    }
+                    .text{
+                        font-size: 11px;
+                        line-height: 17px;
+                    }
+                }
+            }
+            &_buttom-btn{
+                &_text{
+                    padding-right: 20px;
+                }
+            }
+        }}
+    }
+    .combo{
+        padding: 80px 30px 30px 32px;
+        background-image:none;
+        &__slider{
+            &_content{
+         
+                &-wrapper{
+                    padding: 12px 15px 30px;
+                }
+                &-price{
+                    margin-top: 4px;
+                    font-weight: 600;
+                    font-size: 13px;
+                }
+                &-title{
+                    font-size: 15px;
+                }
+                &-descr{
+                    font-size: 11px;
+                    line-height: 20px;
+                }
+                &-btn{
+                    margin-top: 13px;
+                    button{
+                        width: 85px;
+                        height: 25px;
+                        font-size: 10px;
+                        margin-right: 14px;
+                    }
+                }
+            }
+            .slick-next_combo {
+                right: 0;
+            }
+        }
+    }
+    .tabcontent_buttom-btn_text{
+        font-size: 14px;
+    }
+    footer{
+        height: 45px;
+        .footer{
+            font-size: 13px;
+        }
+    }
+}

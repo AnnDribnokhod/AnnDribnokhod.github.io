@@ -1,0 +1,21 @@
+.wrapper-title{
+    display: block;
+    margin: 0 auto;
+    .upper-title{
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #415167;
+    }
+    .title{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        color: #415167;
+        text-align: center;
+    }
+}

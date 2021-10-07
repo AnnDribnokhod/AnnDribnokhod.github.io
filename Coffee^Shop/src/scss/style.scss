@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&family=Nunito:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #F2F2F2;
+}
+
+
+@import 'blocks/combo';
+@import 'blocks/giftset';
+@import 'blocks/header';
+@import 'blocks/information';
+@import 'blocks/media';
+@import 'blocks/sliders';
+@import 'blocks/title';
