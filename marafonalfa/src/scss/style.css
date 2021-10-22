@@ -766,7 +766,7 @@ a {
 
 .registration {
   padding: 120px 0 160px 0;
-  background-image: url(/src/image/regisration_bg.png);
+  background-image: url(../image/regisration_bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1920px 960px;
@@ -993,7 +993,7 @@ a {
 
 .start {
   padding: 135px 0 65px 0;
-  background-image: url(/src/image/start_bg.svg);
+  background-image: url(../image/start_bg.svg);
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -1004,7 +1004,7 @@ a {
 }
 
 .start__title {
-  background-image: url(/src/image/bg_title_start.png);
+  background-image: url(../image/bg_title_start.png);
   background-repeat: no-repeat;
   background-size: 130px 84px;
   font-weight: bold;
@@ -1024,7 +1024,7 @@ a {
   font-size: 24px;
   line-height: 160%;
   color: #222222;
-  background-image: url(/src/image/curcle.svg);
+  background-image: url(../image/curcle.svg);
   background-position: 0 14px;
   background-size: 15px 15px;
   background-repeat: no-repeat;
@@ -1103,7 +1103,7 @@ a {
         -ms-flex-align: center;
             align-items: center;
     width: 450px;
-    height: 675px;
+    height: 680px;
     position: absolute;
     background: #FFFFFF;
     top: 60px;
@@ -1404,7 +1404,7 @@ a {
     margin: 5px;
   }
   .check-list__right_items-item .descr li:nth-child(1) {
-    margin: 0 0 10px 0;
+    margin: 0 0 10px 5px;
   }
   .bonus {
     padding: 30px 15px 15px 15px;
