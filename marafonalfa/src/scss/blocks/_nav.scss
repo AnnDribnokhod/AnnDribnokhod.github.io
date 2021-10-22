@@ -1,0 +1,49 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    &__center{
+        margin-top: 10px;
+        &_links{
+            display: flex;
+            justify-content: space-between;
+            &-link{
+                list-style-type: none;
+                margin: 0 25px;
+                a{
+                    text-decoration: none;
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: #222222;
+                    &:hover{
+                        color:#255FFF ;
+                    }
+                }
+            }
+        }
+    }
+    &__right{
+        &_button{
+            width: 205px;
+            height: 40px;
+            background: #255FFF;
+            border: none;
+            transition: 1s;
+            &:hover{
+                box-shadow:0 0 8px 8px rgb(184, 193, 233);
+            }
+            a{
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .hamburger{
+        display: none;
+    }
+}

@@ -48,11 +48,6 @@ header{
   -o-transition: 0.4s;
   transition: 0.4s;
 }
-.burger-menu_lines {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 .burger-menu_lines::before {
   content: '';
   top: -12px;
@@ -61,7 +56,11 @@ header{
   content: '';
   top: 12px;
 }
-
+.burger-menu_lines {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .burger-menu_active .burger-menu_lines {
   background-color: transparent;

@@ -1,0 +1,83 @@
+.check-list{
+    padding: 140px 0 90px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        margin-right: 135px;
+        &_title{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 150%;
+            color: #222222;
+        }
+        &_button{
+            margin-top: 45px;
+            width: 265px;
+            height: 66px;
+            left: calc(50% - 265px/2 - 465.5px);
+            top: calc(50% - 66px/2 - 1703px);
+            background: #255FFF;
+            border: none;
+            &:hover{
+                box-shadow:0 0 8px 8px rgb(184, 193, 233);
+            }
+            a{
+                font-weight: bold;
+                font-size: 17px;
+                line-height: 21px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin: 0px 10px;
+            }
+        }
+    }
+    &__right{
+        flex: 0;
+        &_items{
+            display: flex;
+            flex-wrap: wrap;
+            &-item{
+                padding: 50px 0;
+                width: 787px;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #AFAFAF;
+                &:nth-child(1){
+                    padding: 0 0 50px 0;
+                }
+                &:nth-child(3){
+                    border-bottom: none;
+                }
+                .days{
+                    margin-right: 118px;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 29px;
+                    letter-spacing: 0.05em;
+                    color: #255FFF;
+                }
+                .descr{
+                    li{
+                    width: 570px;
+                    margin: 10px 0;
+                    color: #255FFF;
+                    span{
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 140%;
+                        color: #222222;  
+                    }
+                    &:nth-child(1){
+                        margin: 0 0 10px 0;
+                    }
+                }}
+            }
+        }
+    }
+}

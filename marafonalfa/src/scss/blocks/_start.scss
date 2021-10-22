@@ -1,0 +1,75 @@
+.start{
+    padding: 135px 0 65px 0;
+    background-image: url(/src/image/start_bg.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    &__wrapper{
+        max-width: 580px;
+        position: relative;
+    }
+    &__title{
+        background-image: url(/src/image/bg_title_start.png);
+        background-repeat: no-repeat;
+        background-size: 130px 84px; 
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 200%;
+        color: #222222;
+    }
+    &__list{
+        margin-top: 10px;
+        list-style-type: none;
+        li{
+            padding-left: 2rem;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 160%;
+            color: #222222;
+            background-image: url(/src/image/curcle.svg);
+            background-position: 0 14px;
+            background-size: 15px 15px;
+            background-repeat: no-repeat;
+            
+        }
+    }
+    &__descr{
+        margin-top: 40px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        color: #222222;
+        span{
+            color: #255FFF;
+        }
+    }
+    &__img{
+        position: absolute;
+        right: 60px;
+        bottom: -66px;
+        max-width: 493px;
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+    &__button{
+        margin-top: 30px;
+        width: 171px;
+        height: 66px;
+        border: none;
+        background: #255FFF;
+        transition: 0.5s;
+        &:hover{
+            box-shadow:0 0 8px 8px rgb(184, 193, 233);
+            }
+        a{
+            font-weight: bold;
+            font-size: 17px;
+            line-height: 21px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+
+        }
+    }
+}

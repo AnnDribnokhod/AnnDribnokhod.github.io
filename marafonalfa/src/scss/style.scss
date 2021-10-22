@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+@import 'blocks/check-list';
+@import 'blocks/footer';
+@import 'blocks/header';
+@import 'blocks/nav';
+@import 'blocks/possible';
+@import 'blocks/bonus';
+@import 'blocks/recall';
+@import 'blocks/regisration';
+@import 'blocks/resalt';
+@import 'blocks/speaker';
+@import 'blocks/start';
+@import 'blocks/media';

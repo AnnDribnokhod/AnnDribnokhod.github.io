@@ -1,0 +1,113 @@
+.recall{
+    padding: 145px 0 25px 0;
+    background-color: #255FFF;
+    &__wrapper{
+        padding-top: 64px;
+        background-color: #fff;
+        max-width: 1200px;
+        max-height: 944px;
+        }
+    &__title{
+        margin-left: 70px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        color: #222222;
+    }
+    &__name{
+        position: absolute;
+        z-index: 11;
+        display: flex;
+        align-items: center;
+        bottom: 200px;
+        left: 114px;
+        &_img{
+            width: 85px;
+            height: 85px;
+            background: #FFFFFF;
+            border-radius: 121.765px;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            margin-right: 30px;
+            transform: scale(1);
+            transition: 1s;
+            &:hover{
+                transform:scale(1.4);
+                box-shadow:0 0 8px 8px rgb(184, 193, 233);
+            }
+            img{
+                width: 15px;
+                height: 23px;
+                transform: scale(1);
+                transition: 1s;
+                &:hover{
+                    transform: scale(1.4);
+                }
+            }
+        }
+    }
+    img{
+        display: block;
+        width: 100%;
+    }
+    .swiper-wrapper{
+        background-color: #fff;
+    }
+    .swiper-slide{
+        padding: 47px 80px 155px 60px;
+    }
+    .swiper-3d .swiper-wrapper{
+        transform-style: flat;
+    }
+    .swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: 77px;
+    }
+.swiper-pagination-bullet-active{
+    width: 9px;
+    height: 9px;
+    background: #255FFF;
+}
+.swiper-pagination-bullet{
+    span{
+    width: 9px;
+    height: 9px;
+    background: #DCDCDC;
+    }
+}
+.swiper-button-next, .swiper-button-prev{
+    bottom: 77px;
+    right: 477px;
+    width: 55px;
+    top: 89%;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #255FFF;
+    &::after{
+        content: '›';
+        background-color: #255FFF;
+        font-size: 30px;
+        color: #fff;
+        line-height: 0;
+        padding-bottom: 5px;
+    }
+}
+.swiper-button-prev{
+    right: auto;
+    left: 477px;
+    &::after{
+        content: '‹';
+    }}
+    .swiper-button-disabled{
+        background: #DCDCDC;
+        opacity: 1;
+        &::after{
+            font-size: 30px;
+            color: #255FFF;
+            background: #DCDCDC;
+            line-height: 0;
+        }
+    }
+
+}
+

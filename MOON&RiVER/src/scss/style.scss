@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: Forum;
+    font-style: normal;
+    font-size: 16px;
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/nav';
+@import 'blocks/footer';
+@import 'blocks/media';

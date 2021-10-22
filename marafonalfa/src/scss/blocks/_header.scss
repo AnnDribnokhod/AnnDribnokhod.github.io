@@ -1,0 +1,102 @@
+.header{
+    background: #255FFF;
+    padding: 92px 0 63px 0;
+    overflow: hidden;
+
+    &__img{
+        position: absolute;
+        right: -200px;
+        top: 0px;
+    }
+    &__upper-title{
+        font-weight: bold;
+        font-size: 20px;        /* identical to box height, or 30px */     
+        text-transform: uppercase;        
+        color: #FFFFFF;
+    }
+    &__title{
+        margin-top: 12px;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 61px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+       
+    }
+    &__subtitle{
+        margin-top: 32px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 150%;
+        max-width: 787px;
+        color: #F2F2F2;
+    }
+    &__item{
+        padding: 30px;
+        margin-top: 34px;
+        background-color: #FFFFFF;
+        width: 325px;
+        height: 274px;
+        &_timer{
+            font-weight: 300;
+            font-size: 50px;
+            line-height: 61px;
+            letter-spacing: 0.18em;
+            color: #222222;
+        }
+        hr{
+            margin-top: 20px;
+            border: 1px solid #D5D5D5;
+        }
+        &_price{
+            margin-top: 15px;
+            display: flex;
+            &-true{
+                font-weight: bold;
+                font-size: 35px;
+                line-height: 43px;
+                letter-spacing: 0.05em;
+                color: #255FFF;
+                text-align: center;
+                margin-right: 14px;
+            }
+            &-false{
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 30px;
+                letter-spacing: 0.05em;
+                text-align: center;
+                color: #5B5B5B;
+                margin-top: 5px;
+                text-decoration: line-through;
+            }
+        }
+        &_button{
+            margin-top: 18px;
+            width: 265px;
+            height: 66px;
+            left: calc(50% - 265px/2 - 437.5px);
+            top: calc(50% - 66px/2 - 3499px);
+            background: #255FFF;
+            border: none;
+            transition: 0.5s;
+            &:hover{
+            box-shadow:0 0 8px 8px rgb(184, 193, 233);
+         
+            }
+            a{
+                font-weight: bold;
+                font-size: 17px;
+                line-height: 21px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #FFF;
+            }
+        }
+    }
+.uk-grid-small, .uk-child-width-auto, .uk-grid, .uk-countdown{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+}

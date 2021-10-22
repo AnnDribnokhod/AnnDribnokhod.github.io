@@ -1,0 +1,60 @@
+.resalt{
+    padding: 26px 0 150px 0;
+    background: #255FFF;
+    &__wrapper{
+        padding: 65px 90px 75px 65px;
+        max-width: 1200px;
+        background-color: #fff;
+    }
+    &__title{
+        max-width: 570px;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 150%;
+        color: #222222;
+    }
+    &__item{
+        margin-top: 40px;
+        display: flex;
+        &_img{
+            max-width: 191px;
+            max-height: 191px;
+            margin-right: 40px;
+            img{
+                display: block;
+                width: 100%;
+            }
+        }
+        &_descr{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            &-name{
+                font-weight: bold;
+                font-size: 26px;
+                color: #255FFF;
+            }
+            &-text{
+                li{
+                margin-top: 10px;
+                font-weight: bold;
+                font-size: 20px;
+                color: #222222;
+                list-style-type: none;
+                &:nth-child(2){
+                    margin-top: 10px;
+                }
+            }}
+        }
+    }
+    &_descr{
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #222222;
+    }
+    hr{
+        margin-top: 45px;
+    }
+}

@@ -1,0 +1,63 @@
+.speaker{
+    padding: 70px 0;
+    &__img{
+        position: absolute;
+        top: -395px;
+        right: 0;
+    }
+    &__uppertitle{
+        margin-right: 25px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #333333;
+        overflow: hidden;
+        position: relative;
+        &::after{
+            content: ' ';
+            position: absolute;
+            width: 90px;
+            margin-top: 13px;
+            margin-left: 20px;
+            border-top: 2px solid #255FFF;
+        }
+    }
+    &__title{
+        margin-top: 33px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 43px;
+        letter-spacing: 0.05em;
+        color: #222222;
+        max-width: 585px;
+            }
+    &__items{
+        margin-top: 62px;
+        display: flex;
+        justify-content: space-between;
+        &_item{
+            padding: 30px;
+            width: 373px;
+            height: 177px;
+            background: #EEEEEE;
+            &-number{
+                font-weight: bold;
+                font-size: 35px;
+                line-height: 43px;
+                letter-spacing: 0.05em;
+                color: #255FFF;
+            }
+            &-descr{
+                margin-top: 10px;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 130%;
+                letter-spacing: 0.05em;
+                color: #222222;
+            }
+        }
+    }
+}

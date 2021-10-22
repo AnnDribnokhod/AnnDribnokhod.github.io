@@ -1,0 +1,61 @@
+.registration{
+    padding: 120px 0 160px 0;
+    background-image: url(/src/image/regisration_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1920px 960px;
+    &__title{
+        font-weight: bold;
+        font-size: 40px;
+        color: #222222;
+    }
+        &__list{
+            margin-top: 45px;
+            max-width: 670px;
+            li{
+                color: #255FFF;
+                margin: 19px 28px;
+                &:nth-child(1){
+                    margin: 0 0 19px 28px;
+                    max-width: 500px;
+                }
+                &:nth-child(2){
+                    max-width: 550px;
+                }
+                &::marker{
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 150%;
+                    color: #255FFF;
+                }
+                span{
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 150%;
+                    color: #000000;
+                }
+            }
+        }
+        &__button{
+            margin-top: 46px;
+            width: 265px;
+            height: 66px;
+            left: calc(50% - 265px/2 - 465.5px);
+            top: calc(50% - 66px/2 + 178px);
+            background: #255FFF;
+            border: none;
+            transition: 0.5s;
+            &:hover{
+                box-shadow:0 0 8px 8px rgb(184, 193, 233);
+            }
+            a{
+                font-weight: bold;
+                font-size: 17px;
+                line-height: 21px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+    }
+}
+    

@@ -1,0 +1,53 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    &__left{
+        .bucket{
+            margin-right: 100px;
+        }
+        .login{
+            margin-right: 40px;
+        }
+        .like{
+            margin-right: 40px;
+        }
+    }
+    }
+
+      .burger-menu_lines::before,
+      .burger-menu_lines::after,
+      .burger-menu_lines {
+        position: absolute;
+        right: 0;
+        width: 30px;
+        height: 1px;
+        background-color: #fff;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -o-transition: 0.4s;
+        transition: 0.4s;
+      }
+      
+      .burger-menu_lines::before {
+        content: '';
+        top: -12px;
+      }
+      .burger-menu_lines::after {
+        content: '';
+        top: 12px;
+      }
+      
+      
+      .burger-menu_active .burger-menu_lines {
+        background-color: transparent;
+      }
+      .burger-menu_active .burger-menu_lines::before {
+        top: 0;
+        transform: rotate(45deg);
+      }
+      .burger-menu_active .burger-menu_lines::after{
+        top: 0;
+        transform: rotate(-45deg);
+      }
+      

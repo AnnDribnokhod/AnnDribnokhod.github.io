@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: Forum;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 79px 0 60px 0;
+  max-height: 1024px;
+  background-image: url("../image/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.nav__left .bucket {
+  margin-right: 100px;
+}
+
+.nav__left .login {
+  margin-right: 40px;
+}
+
+.nav__left .like {
+  margin-right: 40px;
+}
+
+.burger-menu_lines::before,
+.burger-menu_lines::after,
+.burger-menu_lines {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 1px;
+  background-color: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.burger-menu_lines::before {
+  content: '';
+  top: -12px;
+}
+
+.burger-menu_lines::after {
+  content: '';
+  top: 12px;
+}
+
+.burger-menu_active .burger-menu_lines {
+  background-color: transparent;
+}
+
+.burger-menu_active .burger-menu_lines::before {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.burger-menu_active .burger-menu_lines::after {
+  top: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+/*# sourceMappingURL=style.css.map */
