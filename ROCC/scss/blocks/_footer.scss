@@ -1,0 +1,92 @@
+.footer{
+    &__wrapper{
+        padding: 62px 55px 68px 198px;
+        background: #526E3E;
+        border-radius: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left{
+        &_link{
+            a{
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 17px;
+                letter-spacing: 0.2px;
+                color: #EDDBBE
+            }
+            &:hover{
+                a{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    &__center{
+        &_links{
+            display: flex;
+            justify-content: space-between;
+            .link{
+                margin: 0 8px;
+                a{
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 32px;
+                    letter-spacing: 0.2px;
+                    text-transform: capitalize;
+                    color: #EDDBBE;
+                }
+                &:hover{
+                    a{
+                        text-decoration: underline;
+                    }
+            }
+        }
+    }
+}
+&__social{
+    display: flex;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    &_facebook{
+        margin-left: 25px;
+    }
+}
+    &__right{
+        display: flex;
+        &_send{
+            &-email{
+                border: 1px solid #EDDBBE;
+                box-sizing: border-box;
+                border-radius: 0px;
+                background: #526E3E;
+                border-radius: 0px;
+                width: 242px;
+                height: 32px;
+                padding: 5px;
+                &::placeholder{
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 32px;
+                    letter-spacing: 0.2px;
+                    text-transform: capitalize;
+                    color: hsl(37, 57%, 84%);
+                }
+            }
+            &-btn{
+                width: 42px;
+                height: 32px;
+                background: #EEDBBF;
+                a{
+                    font-size: 12px;
+                    line-height: 32px;
+                    letter-spacing: 0.2px;
+                    text-transform: capitalize;
+                    color: #526E3E;
+                }
+            }
+        }
+    }
+}

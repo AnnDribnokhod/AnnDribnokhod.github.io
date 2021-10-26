@@ -1,0 +1,39 @@
+.safely{
+    &__wrapper{
+        padding: 90px 0;
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        color: #526E3E;
+    }
+    &__items{
+        margin-top: 58px;
+        display: flex;
+        justify-content: center;
+        &_item{
+            display: flex;
+            flex-direction: column;
+            width: 68px;
+            margin: 0 25px;
+            &-img{
+                width: 57px;
+                height: 57px;
+               img{
+                   display: block;
+                   width: 100%;
+               }
+            }
+            &-title{
+                margin-top: 20px;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 17px;
+                text-align: center;
+                color: #526E3E;
+            }
+        }
+    }
+}

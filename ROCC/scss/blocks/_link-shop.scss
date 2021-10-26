@@ -1,0 +1,54 @@
+.link-shop{
+    &__wrapper{
+        background: #EDDBBE;
+        height: 800px;
+        padding: 200px 0  182px 97px ;
+        position: relative;
+        &_img{
+            width: 800px;
+            height: 520px;
+            position: absolute;
+            right: 79px;
+            top: 144px;
+            img{
+                display: block;
+                width: 100%;
+            }
+        }
+        &_title{
+            position: absolute;
+            max-width: 570px;
+            font-weight: bold;
+            font-size: 96px;
+            line-height: 100px;
+            color: #526E3E;
+        }
+        &_btn{
+            position:absolute;
+            bottom: 179px;
+            left: 122px;
+            border: 1px solid #526E3E;
+            box-sizing: border-box;
+            border-radius: 3px;
+            background: #EDDBBE;
+            border-radius: 0px;
+            width: 180px;
+            height: 32px;
+            transition: 0.5s;
+            a{
+                font-weight: bold;
+                font-size: 13px;
+                line-height: 20px;
+                text-align: center;
+                color: #526E3E;
+            }
+            &:hover{
+                background-color: #526E3E;
+                a{
+                    color: #fff;
+                }
+
+            }
+        }
+    }
+}

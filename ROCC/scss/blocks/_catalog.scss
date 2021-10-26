@@ -1,0 +1,85 @@
+.catalog{
+    padding: 98px 0;
+    &__wrapper{
+        padding: 45px 21px 40px 0;
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        color: #526E3E;
+    }
+    &__items{
+        display: flex;
+        justify-content: space-between;
+        &_item{
+            margin-left: 20px;
+            max-width: 312px;
+            max-height: 406px;
+            &-img{
+                width: 312px;
+                img{
+                    display: block;
+                    width: 100%;
+                }
+            }
+            &-title{
+                font-weight: bold;
+                font-size: 15px;
+                text-align: center;
+                letter-spacing: 0.26px;
+                color: #526E3E;
+            }
+            &-btn{
+                margin-top: 19px;
+                width: 100%;
+                height: 36px;
+                background: #FDFBED;
+                border-radius: 0px;
+                transition: 0.5s;
+                &:hover{
+                    background-color: #526E3E;
+                    a{
+                        color: #fff;
+                    }
+                }
+                a{
+                    color: #FDFBED;
+                    font-weight: bold;
+                    font-size: 13px;
+                    line-height: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    &__btn{
+        display: block;
+        margin-top: 40px;
+        border: 1px solid #526E3E;
+        box-sizing: border-box;
+        border-radius: 3px;
+        width: 180px;
+        height: 32px;
+        background-color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        transition: 0.5s;
+        &:hover{
+            background: #526E3E;
+            border: none;
+            a{
+                color: #fff;
+            }
+        }
+        a{
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 20px;
+            text-align: center;
+            color: #526E3E;
+        }
+            }
+
+}
