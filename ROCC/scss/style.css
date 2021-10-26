@@ -116,7 +116,7 @@ body {
 
 .header {
   padding: 257px 0 80px 0;
-  background-image: url(/img/bg-header.png);
+  background-image: url(../img/bg-header.png);
   background-position: center;
   background-repeat: no-repeat;
   max-height: 710px;
@@ -252,7 +252,7 @@ body {
 
 .text {
   padding: 268px 0;
-  background-image: url(/img/bg-text.png);
+  background-image: url(../img/bg-text.png);
   background-position: center;
   background-repeat: no-repeat;
   height: 702px;
@@ -351,7 +351,7 @@ body {
       -ms-flex-pack: right;
           justify-content: right;
   padding-right: 194px;
-  background-image: url(/img/block1.png);
+  background-image: url(../img/block1.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 50% 100%;
@@ -367,7 +367,7 @@ body {
       -ms-flex-pack: left;
           justify-content: left;
   padding-left: 210px;
-  background-image: url(/img/block2.png);
+  background-image: url(../img/block2.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 50% 100%;
@@ -383,7 +383,7 @@ body {
       -ms-flex-pack: right;
           justify-content: right;
   padding-right: 194px;
-  background-image: url(/img/block1.png);
+  background-image: url(../img/block1.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 50% 100%;
