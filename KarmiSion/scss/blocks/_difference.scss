@@ -2,7 +2,7 @@
     background: #E8E8E8;
     &__wrapper{
         padding: 137px 108px 105px 66px;
-        height: 559px;
+        min-height: 559px;
         display: flex;
     }
     &__img{
@@ -32,7 +32,6 @@
                 margin-top: 15px;
             }
         }
-          
         }
     }
 }

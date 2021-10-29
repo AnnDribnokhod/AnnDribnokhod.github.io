@@ -5,5 +5,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('hamburger_active');
-        menu.classList.toggle('.nav__right_links_active');
+        menu.classList.toggle('nav__right_links-active');
     });})

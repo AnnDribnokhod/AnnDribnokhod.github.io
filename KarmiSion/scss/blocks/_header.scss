@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     height: 653px;
     background-position: 100% 0;
-    background-size: 35% 100%;
+    background-size: 30% 100%;
     &__wrapper{
         position: relative;
     }
@@ -39,6 +39,7 @@
             position: absolute;
             top: 451px;
             right: 537px;
+            opacity: 0.6;
         }
         &_bg{
             position: absolute;
