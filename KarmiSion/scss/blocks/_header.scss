@@ -1,0 +1,59 @@
+.header{
+    background-image: url(/image/header_bg.png);
+    background-repeat: no-repeat;
+    height: 653px;
+    background-position: 100% 0;
+    background-size: 35% 100%;
+    &__wrapper{
+        position: relative;
+    }
+    &__text{
+        position: absolute;
+        top: 229px;
+        max-width: 853px;
+        &_title{
+            font-family: Cormorant SC;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 65px;
+            line-height: 90%;
+            color: #BA8652;
+        }
+        &_descr{
+            margin-top: 23px;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 120%;
+            color: #212121;
+            max-width: 675px;
+        }
+    }
+    &__img{
+        &_specialist{
+            position: absolute;
+            top: 26px;
+            right: 28px;
+            z-index: 4;
+        }
+        &_icon{
+            position: absolute;
+            top: 451px;
+            right: 537px;
+        }
+        &_bg{
+            position: absolute;
+            left: -25%;
+        }
+        &_shadow{
+            position: absolute;
+            top: 16px;
+            right: 32px;
+        }
+        &_star{
+            position: absolute;
+            right:-24px;
+            top: 45px;
+            z-index: 1;
+        }
+    }
+}

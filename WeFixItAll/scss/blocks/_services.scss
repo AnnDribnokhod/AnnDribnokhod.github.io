@@ -1,0 +1,100 @@
+.services{
+    &__wrapper{
+        padding-top: 100px;
+    }
+    &__title{
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 94px;
+        color: #000000;
+    }
+    &__descr{
+        margin-top: 50px;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        color: #000000;
+    }
+    &__items{
+        display: flex;
+        flex-wrap: wrap;
+        &_item{
+            margin-top: 50px;
+            padding: 35px 35px 100px;
+            max-width: 575px;
+            max-height: 575px;
+            position: relative;
+            &:nth-child(1){
+                background: #9ACCD2;
+                margin-right: 25px;
+            }
+            &:nth-child(2){
+                background: #F0C59D;
+                margin-left: 25px;
+            }
+            &:nth-child(3){
+                background: #A871B1;
+                margin-right: 25px;
+            }
+            &:nth-child(4){
+                background: #C5E3E8;
+                margin-left: 25px;
+            }
+            &-img{
+                width: 100px;
+                height: 100px;
+                background: #000000;
+                border-radius: 100px;
+                position: relative;
+                img{
+                    max-width: 50px;
+                    max-height: 50px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-right: -50%;
+                    transform: translate(-50%, -50%) 
+                }
+            }
+            &-title{
+                margin-top: 40px;
+                font-weight: bold;
+                font-size: 50px;
+                line-height: 59px;
+                color: #000000;
+            }
+            &-descr{
+                margin-top: 40px;
+                font-weight: normal;
+                font-size: 22px;
+                line-height: 26px;
+                color: #000000;
+            }
+            &-more{
+                position: absolute;
+                bottom: 35px;
+                &:hover{
+                    a{
+                        color: #fff;
+                    }
+                    hr{
+                        animation: 3s linear 0s infinite alternate link;
+                        border: 1px solid #fff;
+                    }
+                }
+                a{
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;
+                color: #000000;
+                hr{
+                    margin-top: 8px;
+                    width: 115px;
+                    height: 0px;
+                    border: 1px solid #000000;
+                    transform: rotate(180deg);
+                }
+                }
+            }}
+        }
+    }

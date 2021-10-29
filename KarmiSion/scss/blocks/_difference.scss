@@ -1,0 +1,38 @@
+.difference{
+    background: #E8E8E8;
+    &__wrapper{
+        padding: 137px 108px 105px 66px;
+        height: 559px;
+        display: flex;
+    }
+    &__img{
+        max-width: 281px;
+        max-height: 308px;
+        margin-right: 77px;
+    }
+    &__text{
+        &_title{
+            margin-top: 30px;
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 120%;
+            color: #212121;
+        }
+        &_descr{
+            margin-top: 5px;
+            p{
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 120%;
+                color: #212121; 
+            &:nth-child(2){
+                margin-top: 15px;
+            }
+            &:nth-child(3){
+                margin-top: 15px;
+            }
+        }
+          
+        }
+    }
+}

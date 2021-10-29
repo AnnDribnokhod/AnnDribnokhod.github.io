@@ -1,0 +1,78 @@
+.header{ 
+        &__wrapper{
+            position: relative;
+            background-color: rgba(241, 178, 158, 0.55);
+            height: 700px;
+        }
+        &__img{
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 700px;
+            z-index: 1;
+            img{
+                display: block;
+                width: 100%;
+            }
+        }
+        &__item{
+            position: absolute;
+            top: 73px;
+            left: 53px;
+            max-width: 665px;
+            max-height: 413px;
+            background: #FFFFFF;
+            padding: 50px 68px 44px 57px;
+            z-index: 2;
+            &_title{
+                font-weight: bold;
+                font-size: 80px;
+                line-height: 94px;
+                color: #000000;
+            }
+            &_descr{
+                margin-top: 32px;
+                font-weight: normal;
+                font-size: 23px;
+                line-height: 27px;
+                color: #000000;
+            }
+            &_btn{
+                display: flex;
+                margin-top: 41px;
+                &-more{
+                    width: 200px;
+                    height: 70px;
+                    border: 2px solid #000000;
+                    box-sizing: border-box;
+                    font-weight: 500;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 26px;
+                    color: #000000;
+                    background: inherit;
+                    margin-right: 13px;
+                    &:hover{
+                        background-color: #000000;
+                        color: #FFFFFF;
+                    }
+                }
+                &-start{
+                    width: 200px;
+                    height: 70px;
+                    border: 2px solid #000000;
+                    box-sizing: border-box;
+                    font-weight: 500;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 26px;
+                    color: #000000;
+                    background: inherit;
+                    &:hover{
+                        background-color: #000000;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+        }
