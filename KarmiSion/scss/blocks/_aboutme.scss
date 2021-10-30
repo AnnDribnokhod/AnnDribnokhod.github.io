@@ -1,0 +1,78 @@
+.aboutme{
+    background-image: url(/image/bg_AboutMe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+    &__wrapper{
+        position: relative;
+    }
+    &__item{
+        width: 724px;
+        height: 592px;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 30px;
+        padding: 30px 20px 30px 23px;
+        position: absolute;
+        right: 0;
+        top: 65px;
+        &_title{
+            font-weight: bold;
+            font-size: 60px;
+            line-height: 120%;
+            color: #D3A475;
+        }
+        &_descr{
+            margin-top: 20px;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 120%;
+            color: #FFFFFF;
+        }
+        &_numbers{
+            margin-top: 26px;
+            display: flex;
+            justify-content: space-between;
+            &-block{
+                width: 156px;
+                height: 103px;
+                display: flex;
+                flex-direction: column;
+                .number{
+                    font-weight: bold;
+                    font-size: 46px;
+                    color: #D3A475;
+                    span{
+                        font-size: 25px;
+                    }
+                }
+                .description{
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 120%;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        &_text{
+            margin-top: 47px;
+            p{
+                margin-top: 17px;
+                font-weight: normal;
+                font-size: 17px;
+                line-height: 120%;
+                color: #FFFFFF;
+                span{
+                    font-weight: bold;
+                }
+                a{
+                    color: rgb(39, 167, 226);
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+        }
+    }
+}
