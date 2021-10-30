@@ -1,0 +1,85 @@
+.definition{
+    background-color: rgba($color: #248, $alpha: 0.02);
+    height: 800px;
+    &__wrapper{
+        position: relative;
+
+    }
+    &__items{
+        position: absolute;
+        top: -50px;
+        padding: 50px 30px;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 30px;
+        &_item{
+            display: flex;
+            margin-top: 60px;
+            &:nth-child(1){
+                margin-top: 0;
+            }
+            &_img{
+                margin-right: 71px;
+                img{
+                    width: 158px;
+                    height: 127px;
+                }
+            }
+            &_descr{
+                &-title{
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 120%;
+                color: #D3A475;
+            }
+                &-text{
+                    p{
+                        margin-bottom: 17px;
+                        font-weight: normal;
+                        font-size: 17px;
+                        line-height: 120%;
+                        color: #212121;
+                        &:nth-child(1){
+                        margin-top: 20px;
+                        }
+                    }
+                    .addition{
+                        padding: 12px 10px 12px 21px;
+                        background: #F8F1EA;
+                        margin-top: 16px;
+                        border-radius: 20px;
+                        font-weight: normal;
+                        font-size: 17px;
+                        line-height: 120%;
+                        color: #212121;
+                    }
+                }
+                &_blocks{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 32px;
+                    .block{
+                        display: flex;
+                        max-width: 295px;
+                        align-items: center;
+                        &_img{
+                            margin-right: 10px;
+                           img{
+                               width: 62px;
+                           }
+                        }
+                        &_descr{
+                            font-weight: bold;
+                            font-size: 17px;
+                            line-height: 120%;
+                            color: #D3A475;
+                        }
+                    }
+                }
+        }
+        }
+    }
+}

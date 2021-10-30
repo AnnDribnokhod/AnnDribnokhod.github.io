@@ -3,7 +3,7 @@
 body{
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-	max-width: 1980px;
+	max-width: 1920px;
 	margin: 0 auto;
 }
 .container{
@@ -46,3 +46,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 @import 'blocks/footer';
 @import 'blocks/media';
 @import 'blocks/definition';
+@import 'blocks/answer';
+@import 'blocks/situation';
+@import 'blocks/price';
+@import 'blocks/recall';
+

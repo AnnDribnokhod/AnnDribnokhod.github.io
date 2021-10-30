@@ -1,0 +1,102 @@
+.price{
+    padding: 75px 0;
+    &__title{
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 120%;
+        color: #D3A475;
+        text-align: center;
+    }
+    &__items{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        &_item{
+            padding: 35px 20px;
+            width: 420px;
+            height: 738px;
+            background: #FFFFFF;
+            border: 1px solid #D3A475;
+            box-sizing: border-box;
+            border-radius: 30px;
+            position: relative;
+            overflow: hidden;
+            &_img{
+                img{
+                    width: 136.8px;
+                    height: 137px;
+                }
+            }
+            &_title{
+                margin-top: 30px;
+                font-weight: bold;
+                font-size: 26px;
+                line-height: 120%;
+                color: #212121;
+            }
+            &_label{
+                position: absolute;
+                top: 54px;
+                text-align: center;
+                height: 35px;
+                width: 249px;
+                right: -47px;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 120%;
+                text-align: center;
+                color: #FFFFFF;
+                background: #D3A475;
+                padding: 3px;
+                transform: rotate(42.1deg);
+            }
+            &_list{
+                margin-top: 5px;
+                li{
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 120%;
+                color: #212121;
+                list-style-type: disc;
+                list-style-position: inside;
+                &::marker{
+                    margin-right: 0;
+                }
+            }
+        }
+        &_bottom{
+            position: absolute;
+            bottom: 35px;
+        &-number{
+            margin-top: 30px;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 120%;
+            color: #D3A475;
+        }
+        &_btn{
+            margin-top: 15px;
+            width: 231px;
+            height: 50px;
+            background: #D3A475;
+            border-radius: 30px;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            color: #FFFFFF;
+            position: relative;
+            .line{
+                background: linear-gradient(221.37deg, #FFFFFF -1.67%, rgba(255, 255, 255, 0) 104.92%);
+                opacity: 0.15;
+                top: 0;
+                right: 0;
+                transform: rotate(120deg);
+                width: 112px;
+                height: 26px;
+                position: absolute;
+            }
+        }
+        }}
+    }
+}

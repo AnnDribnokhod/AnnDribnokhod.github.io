@@ -1,0 +1,114 @@
+.footer{
+    background-image: url(../../image/bg_footer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 18px 0 8px 0;
+    &__wrapper{
+        padding: 0 0px 0px 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img{
+        img{
+            width: 215px;
+            height: 226px;
+        }
+    }
+    &__left{
+        max-width: 277px;
+        margin-top: 57px;
+        p{
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 120%;
+            color: #FFFFFF;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+    &__center{
+        margin-top: 57px;
+        max-width: 260px;
+        &_title{
+            a{
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 120%;
+                color: #FFFFFF;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+        &_link{
+            display: flex;
+            align-items: center;
+            margin-top: 16px;
+            &-img{
+                margin-right: 10px;
+                img{
+                    width: 26px;
+                    height: 22px;
+                }
+            }
+            &-descr{
+                a{
+                    font-weight: normal;
+                    font-size: 19px;
+                    line-height: 120%;
+                    color: #FFFFFF;
+                    text-transform: uppercase;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    &__right{
+        max-width: 162px;
+        margin-top: 57px;
+        &_title{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+            color: #FFFFFF;
+        }
+        &_social{
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+            .viber,.instagram{
+                display: flex;
+                margin-bottom: 10px;
+                &__img{
+                    width: 26px;
+                    height: 26px;
+                    margin-right: 10px;
+                }
+                &__descr{
+                    font-weight: normal;
+                    font-size: 22px;
+                    line-height: 120%;
+                    color: #FFFFFF;
+                }
+                &:hover{
+                    text-decoration: underline;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    &__link{
+            display: block;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 120%;
+            text-align: center;
+            color: #FFFFFF;
+            &:hover{
+                text-decoration: underline;
+            }
+    }
+}
