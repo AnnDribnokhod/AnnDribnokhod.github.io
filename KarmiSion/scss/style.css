@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-  background-image: url(../../image/bg_footer.png);
+  background-image: url(../image/bg_footer.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 18px 0 8px 0;
@@ -952,7 +952,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .recall {
-  background-image: url(../../image/recall_bg.png);
+  background-image: url(../image/recall_bg.png);
   background-repeat: no-repeat;
   padding: 75px 0;
   height: 942px;
