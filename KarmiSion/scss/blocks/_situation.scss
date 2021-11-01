@@ -1,5 +1,5 @@
 .situation{
-    padding: 75px 0 0px 0;
+    padding: 75px 0 75px 0;
     background: #E8E8E8;
     &__title{
         font-weight: bold;
@@ -9,11 +9,11 @@
         text-align: center;
     }
     &__items{
-        margin-top: 20px;
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 475px;
+
+    }
+    &__left, &__right{
+        margin-top: 20px;
         &_item{
             width: 635px;
             background: #FFFFFF;
