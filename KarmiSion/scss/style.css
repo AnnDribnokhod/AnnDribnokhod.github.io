@@ -727,7 +727,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .definition__items {
+  background-image: url(../image/header_back.png);
+  background-repeat: no-repeat;
+  background-position: 973px 115px;
   position: absolute;
+  background-color: #fff;
   top: -50px;
   padding: 50px 30px;
   height: 900px;
@@ -738,7 +742,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: #FFFFFF;
   -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
@@ -1033,26 +1036,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .situation__left_item_block-plus, .situation__right_item_block-plus {
-  background: #CD6D45;
+  width: 20px;
   height: 20px;
-  width: 3px;
-  position: relative;
-  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.situation__left_item_block-plus::after, .situation__right_item_block-plus::after {
-  content: "";
-  height: 3px;
-  width: 20px;
-  background: #CD6D45;
-  position: absolute;
-  left: -8px;
-  top: 10px;
+.situation__left_item_block-plus::before, .situation__right_item_block-plus::before {
+  content: "\002B";
+  color: #D3A475;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 120%;
 }
 
 .situation__left_item_block-plus.open, .situation__right_item_block-plus.open {
-  height: 0;
-  width: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.situation__left_item_block-plus.open::before, .situation__right_item_block-plus.open::before {
+  content: "\2212";
+  color: #D3A475;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 120%;
 }
 
 .situation__left_item_content, .situation__right_item_content {
